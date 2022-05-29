@@ -1,7 +1,7 @@
 
 public class Contador {
 
-	private short valor=0;
+	private int valor=0;
 
 	public void contar() {
 		this.valor++; 
@@ -11,7 +11,7 @@ public class Contador {
 		this.valor=0;
 	}
 	
-	public short mostrar() {
+	public int mostrar() {
 		return this.valor;
 	}
 	
